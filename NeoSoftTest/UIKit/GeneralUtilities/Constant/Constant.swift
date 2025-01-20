@@ -10,7 +10,7 @@ import Foundation
 public struct Constants {
     
     public struct IconNames {
-        public static let magnifyingglass = "magnifyingglass"
+        public static let search = "search"
     }
     
     public struct ResourceNames {

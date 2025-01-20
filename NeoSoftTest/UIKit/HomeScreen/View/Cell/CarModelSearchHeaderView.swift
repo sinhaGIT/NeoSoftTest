@@ -40,7 +40,7 @@ class CarModelSearchHeaderView: UITableViewHeaderFooterView {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        txtSearch.setLeftImage(imageName: Constants.IconNames.magnifyingglass)
+        txtSearch.setLeftImage(imageName: Constants.IconNames.search)
         txtSearch.addTarget(self, action: #selector(textDidChange(_:)), for: .editingChanged)
     }
     
